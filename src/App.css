@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  }
+/* css para el DASHBOARD */
+.dashboard{
+  width: 100%;
+  text-align: center;
+}
+form {
+  margin-bottom: 20px;
+  border: solid 1px #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  width: 50%;
+}
+
+input, textarea {
+  display: block;
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  margin-right: 10px;
+  padding: 8px 12px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:last-child {
+  background-color: #007bff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  border: solid 1px #ccc;
+  border-radius: 5px;
+}
+
+li {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+h3 {
+  margin: 0 0 10px 0;
+}
+.btnDelete{
+  background-color: red;
+}
+/* Estilos de la tabla */
+.table {
+  width: 100%;
+  border-collapse: collapse; /* Combina los bordes de las celdas */
+  margin-top: 20px;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd; /* Bordes visibles en celdas */
+  padding: 12px; /* Espacio interno de las celdas */
+  text-align: left; /* Alinear texto a la izquierda */
+}
+
+.table th {
+  background-color: #f4f4f4; /* Color de fondo para encabezados */
+  font-weight: bold; /* Texto más grueso para el encabezado */
+}
+
+.table td img {
+  max-width: 50px; /* Limita el tamaño de las imágenes */
+  height: auto;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f9f9f9; /* Color de fondo alternativo para filas */
+}
+
+.table tr:hover {
+  background-color: #f1f1f1; /* Color de fondo cuando el mouse pasa sobre la fila */
+}
+
+/* Estilo de los botones */
+.table button {
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+.labelRole {
+  font-weight: bold;
+  padding: 5px;
+}
+.selectRol{
+  font-weight: bold;
+  padding: 5px;
+  margin: 10px;
+}
+.selectCategoria{
+  font-weight: bold;
+  padding: 5px;
+  margin: 10px;
+}
+/* fin de css DASHBOARD */
